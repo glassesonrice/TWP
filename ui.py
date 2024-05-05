@@ -23,8 +23,9 @@ class Template(QWidget):
         
         btn.clicked.connect(self.open_image)
         grid = QGridLayout(self)
-        #self.setText('\n\n Drop Image Here \n\n')
-        grid.addWidget(btn, 1, 0, Qt.AlignHCenter)
+        # self.setText('\n\n Drop Image Here \n\n')
+        # grid.addWidget(btn, 1, 0, Qt.AlignHCenter)
+        grid.addWidget(btn, 0, 0, Qt.AlignHCenter)
         grid.addWidget(self.photo, 1, 0)
         self.resize(sqD, sqD)
 
