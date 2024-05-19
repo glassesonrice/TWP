@@ -2,6 +2,7 @@
 This application is for the purposes of inputting jpg images into the program, where the software will output whether the image is a tank, plane, or helicopter
 
 ## Installation
+Install all files CreateModel.py, Interpreter.py, main.py, ui.py, and modelA.pickle
 ```bash
 pip install numpy
 python -m pip install tensorflow[and-cuda]
