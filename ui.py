@@ -1,4 +1,3 @@
-import sys
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
@@ -10,10 +9,7 @@ class PhotoLabel(QLabel):
         super().__init__(*args, **kwargs)
         self.setAlignment(Qt.AlignCenter)
 
-
-
 class Template(QWidget):
-
     def __init__(self):
         super().__init__()
         self.title = 'Military Vehicle Identifier'

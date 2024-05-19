@@ -6,13 +6,13 @@ import os
 import pickle
 import sys
 from PyQt5.QtCore import *
-#from ui import *
+
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 class Interpreter:
     def __init__(self):
-        self.class_names = ['planes', 'tanks'] 
+        self.class_names = ['helicopter','planes', 'tanks'] 
         self.img_height = 180
         self.img_width = 180
         
